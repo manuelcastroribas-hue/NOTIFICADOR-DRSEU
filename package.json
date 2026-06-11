@@ -1,0 +1,25 @@
+{
+  "name": "notificador-excel-backend",
+  "version": "1.0.0",
+  "description": "Backend en la nube para procesar de forma centralizada las automatizaciones y envíos de correo de Google Sheets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "google-apps-script",
+    "render",
+    "webhook",
+    "express"
+  ],
+  "author": "Propietario del Proyecto",
+  "license": "ISC"
+}
